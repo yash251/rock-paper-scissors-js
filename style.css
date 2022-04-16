@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #082c6c;
+    color: #fff;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.title{
+    position: absolute;
+    top: 0;
+    font-size: 4rem;
+    z-index: 2;
+    text-decoration: underline;
+}
+
+.options{
+    font-size: large;
+    color: #082c6c;
+    background-color: antiquewhite;
+    display: flex;
+    width: 20vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.pick {
+    margin-top: 5rem;
+}
